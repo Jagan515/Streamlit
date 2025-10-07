@@ -1,9 +1,8 @@
-Here’s a **professional, beginner-friendly `README.md`** written in clean Markdown format for your Streamlit project (the Food Lover App) — complete with setup, usage, and a detailed guide on using **`uv`** for environment management.
-
----
-
-
 # 🍕 Food Lover App (Streamlit Project)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-fvphmvgrwf3gdyz6petdht.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Jagan515/Streamlit)
+
+
 ## 📘 Quick Summary
 **Food Lover App** is a fun, interactive Streamlit web app where users can select and customize their favorite dishes — from Pizza and Momos to Chaap and Chinese.  
 It uses modern Python tooling with **`uv`**, a fast package manager that combines the power of `pip` and `venv` into one seamless experience.
@@ -87,7 +86,7 @@ or simply:
 pip install -r requirements.txt
 ```
 
-✅ `uv` uses fast installers and caching, so repeated installs are much quicker.
+`uv` uses fast installers and caching, so repeated installs are much quicker.
 
 ---
 
@@ -170,8 +169,8 @@ Using a **lock file** ensures everyone uses **identical package versions**, avoi
 
 | File Type                            | Purpose                                                            | Example                        |
 | ------------------------------------ | ------------------------------------------------------------------ | ------------------------------ |
-| `requirements.txt`                   | Lists dependencies (e.g. `pandas>=1.5`) — flexible but not pinned. | ✅ Good for general use         |
-| `requirements-lock.txt` or `uv.lock` | Captures exact versions for full reproducibility.                  | ✅ Best for deployment or CI/CD |
+| `requirements.txt`                   | Lists dependencies (e.g. `pandas>=1.5`) — flexible but not pinned. | Good for general use         |
+| `requirements-lock.txt` or `uv.lock` | Captures exact versions for full reproducibility.                  | Best for deployment or CI/CD |
 
 👉 Typical workflow:
 
@@ -262,7 +261,3 @@ Data Science & AI Enthusiast
 
 ```
 
----
-
-Would you like me to make this README automatically detect all your `chapter-*.py` files and display them as clickable **Streamlit tabs** when viewed on Streamlit Cloud (like a small “project launcher”)? I can extend the `project.py` accordingly.
-```
